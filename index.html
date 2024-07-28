@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACCC 2024</title>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+    <!--Wasnt sure if we were allowed to use an external css file so I created an internal CSS for this project-->
+
+    <style>
+        body{
+    background:cadetblue;
+    display: flex;
+    flex-direction: column;
+    }
+    .wrapper {
+        width: min(900px, 100% -3rem);
+        margin-inline:auto;
+
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        border: solid;
+    }
+    table,
+    th,
+    td{
+        border:solid black;
+        padding: 1rem
+    }
+   
+
+    </style>
+</head>
+<body>
+
+    <!--Add navbar up here on top-->
+    <!--Added a navbar here with a dark background color-->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">NACCC 2024</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> <!--Got this display from bootstrap and just added Home,Contact Us, and Registration and links so that they can go back and forth by the pages.-->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Registration</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+     <!--have a tittle here--> <!--added an imaage with an image fluid-->
+     <center><h1>WELCOME NACCC 2024!!!!</h1></center>
+      <img src="https://cdn.prod.website-files.com/65bb0d838b57c5aa2c4a2b9d/65e1e993a23bc37e0d277d6b_5fb4542cf5a3a710f12184a4_GY%2520004.jpeg" class="img-fluid" alt="Downtown-San-Diego">
+
+
+
+        <!--Body of what my page will be-->
+      <body>     
+        <p>Get ready to feel the breeze and the buzz because San Diego is thrilled to host the 2024 North American Cycle Courier Championship this September!</p>
+        <p>We've been working tough behind the scenes to make sure we have a spectacular week. From alleycats to the laid-back parties, rides, and of course, the <b>MAIN EVENT</b> on Sunday, we've got a lineup that will definitely make you remeber SAN DIEGO!!!</p>
+        <p>Be sure to mark down your calander as this is an event you will not want to miss! There will be competitors from all corners of the continent adventuring our streets here in San Diego. Hope to see you soon here in Sunny Daygo!</p>
+      </body>
+        
+      <center><u><h2>THINGS TO KEEP IN MIND</h2></u></center>
+      <p>Keep in mind that this will be an eventfull week so we would like if you are from out of town that you have the proper accomidations you need through out the week, if not feel free to reach out to us to see if we can help out in any way. Here is what we have in stored for y'all!</p>
+            <!--Added a t able here but unfortunatley i was unable to make this collapse vertically I feel like it was a simple fix but might of been searching in the wrong area for what i am trying to achieve.-->
+          <table class="container-fluid" >
+            <tr>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+              <th>Sunday</th>
+            </tr>
+            <tr>
+              <td>Full Moon Bike Ride: Meet at San Diego Velodrome (2516 Pershing Dr, San Diego, CA 92104) Roll out at 7pm</td>
+              <td>Packet Pick Up at Fairplay (4026 30th street San Diego CA 92104)12pm - 4pm. Tracklocross: 8pm Registration 9pm race starts at Morley Field Ball Park (3268 Florida Dr, San Diego, CA 92104)</td>
+              <td>Beach Ride starts at 12pm at Imperial Beach and will end at Fiesta Island. Tracklocross: Race starts at 5pm at Fiesta Island after the race there will be a bonfire!</td>
+              <td>Tour de San Diego Alleycat: Race will start at 11am and will end at Golden Hill Park. This race will be the most miles, and checkpoints.</td>
+              <td>Main Event Qualifiers: Will start at 10am FURTHER DETAILS COMING SOON!  </td>
+              <td>Main Event Final:Will start at 10am FURTHER DETAILS COMING SOON! NACCC After Party: 5pm till FURTHER NOTICE!</td>
+            </tr>
+          </table>  <br>
+
+
+        <!--have a conclusion here with contact link at bottom of screen-->
+
+      <p>Please feel free to <a href="contact.html">Contact Us</a> if you have any further questions or concerns. If you are up for the challenge by all means please fill out the <a href="contact.html">Registration</a> and see if you have what it takes to crush it out here in San Diego!</p>
+
+          
+      <script src="node_modules/jquery.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+      
+</body>
+</html>
